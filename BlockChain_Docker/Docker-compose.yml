@@ -1,0 +1,98 @@
+version: '3'
+services:
+  blockchain_merchants_frontend:
+    restart: on-failure:5
+    container_name: merchant_frontend
+    #EXPOSE: "4200"
+    build:
+      context: ./FrontEnd/merchant6/
+      dockerfile: MerchantFrontend.dev
+    ports:
+     - "1900:80"
+    #command: [nginx-debug, '-g', 'daemon off;']
+  redis:
+    restart: always
+    image: redis:latest
+    container_name: redis_cache_messaging
+    volumes:
+      - ./redis.conf:/usr/local/etc/redis/redis.conf
+    ports:
+      - "6379"
+  blockchain_service:
+    restart: on-failure:5
+    container_name: blockchain_service
+    build:
+      #context: ../blockchain_docker/blockchain/
+      context: ./BackEnd/blockchainservice
+      dockerfile: Docker.Node1
+    ports:
+      - "3001:3001"
+    volumes:
+      - /app/node_modules
+      - ./BackEnd/blockchainservice:/app
+    environment:
+      - CASSANDRA_DATABASE=blockchain_net1_db
+      - BLOCKCHAIN_PORT=3001
+      
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+    links:
+      - redis
+
+  blockchainsocketio_service:
+    restart: on-failure:5
+    container_name: blockchainsocketio_service
+    build:
+      #context: ../blockchain_docker/blockchain/
+      context: ./BackEnd/blockchainsocketio
+      dockerfile: Docker.Node1
+    environment:
+      - SOCKETIO_PORT=3005
+    ports:
+      - "3005:3005"
+    volumes:
+      - /app/node_modules
+      - ./BackEnd/blockchainsocketio:/app
+      
+  merchant_service:
+    restart: on-failure:5
+    container_name: merchant_service
+    build:
+      #context: ../blockchain_docker/blockchain/
+      context: ./BackEnd/merchantservice
+      dockerfile: Docker.Node1
+    environment:
+      - MERCHANT_PORT=3002
+    ports:
+      - "3002:3002"
+    volumes:
+      - /app/node_modules
+      - ./BackEnd/merchantservice:/app
+    
+      
+  #blockchain_merchants_frontend_dev:
+  #  restart: on-failure:5
+  #  container_name: merchant_frontend_dev
+  #  expose: 
+  #    - "4200"
+  #  build:
+  #    context: ./FrontEnd/Merchant-App/
+  #    dockerfile: MerchantFrontend.dev
+    #command: /bin/bash
+    #tty: true
+    #stdin_open: true
+    #command: service nginx start
+    #command: nginx -g "daemon off"
+    #expose:
+    #  - "4200"
+    #volumes:
+    #  - /app/node_modules
+    #  - ./FrontEnd/Merchant-App/:/app
+  #blockchain_nginx:
+  #  restart: always
+  #  container_name: blockchain_reverse_proxy
+  #  build:
+  #    dockerfile: Dockerfile.dev
+  #    context: .
+  #  ports:
+  #    - '3050:80'

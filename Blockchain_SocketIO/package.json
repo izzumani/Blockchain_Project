@@ -1,0 +1,30 @@
+{
+  "name": "blockchainsocketio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node blockchainsocketio.js",
+    "blockchainsocketio_docker_dev": "nodemon -L ./blockchainsocketio.js"
+    
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "*",
+    "cors": "^2.8.5",
+    "express": "*",
+    "nodemon": "*",
+    "request": "*",
+    "request-promise": "*",
+    "sha256": "*",
+    "uuid": "*",
+    "http":"*",
+    "socket.io":"*"
+    
+  },
+  "description": ""
+}

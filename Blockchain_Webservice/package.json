@@ -1,0 +1,31 @@
+{
+  "name": "blockchainservice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node blockchainservice.js",
+    "blockchain_docker_dev": "nodemon -L ./blockchainservice.js ./merchant.js  ./serviceworker",
+    "blockchain_dev": "nodemon --watch dev -L js ./blockchainservice.js ./merchant.js ./serviceworker"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "*",
+    "cors": "^2.8.5",
+    "express": "*",
+    "nodemon": "*",
+    "request": "*",
+    "request-promise": "*",
+    "sha256": "*",
+    "uuid": "*",
+    "ioredis": "4.5.1",
+    "http":"*",
+    "socket.io":"*"
+    
+  },
+  "description": ""
+}
