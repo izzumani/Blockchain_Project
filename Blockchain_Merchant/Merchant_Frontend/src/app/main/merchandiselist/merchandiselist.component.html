@@ -1,0 +1,58 @@
+ 
+ <div class="container">
+
+         
+  <h1> <i class="fa fa-shopping-cart"></i> Products <button id="viewcart" type="button" (click)="openModal(content)"  class="btn btn-dark pull-right hide">{{numberOfItemsInCart}} View Cart</button> </h1>
+      
+  <hr>
+      
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        
+        <th scope="col">Product Number</th>
+        <th scope="col">Product Description</th>
+          <th scope="col">Amount</th>
+          <th scope="col"></th>
+                   
+          
+        
+      </tr>
+    </thead> 
+    <tbody>
+      <tr *ngFor="let products of productLists">
+        <td>{{products.ProductCode}}</td>
+        <td>{{products.ProductDescription}}</td>
+        <td>{{ products.Price}}</td>
+        <td>
+          <button (click)="fnbuynow(products)" 
+          class="btn btn-primary margin-auto btn-search"
+          [disabled]="products.addedToCart">
+            BuyNow
+          </button>
+    </td>
+      </tr>
+      
+    </tbody>
+  </table>  
+  
+  <div class="col-sm-12 ">
+      <div class="result pull-left"><strong>Mostrando 1 até 6 de 5000</strong></div>
+
+      <!-- <ngb-pagination [collectionSize]="50" [(page)]="currentPage" size="lg"></ngb-pagination> -->
+      
+  </div>
+  
+ 
+      
+</div>
+
+<!-- Modal -->
+<ng-template #content let-modal>
+    <viewcartmodal [viewCartProducts]="CartProductList" (removeCartItemEvent)="removedCartItem($event)"></viewcartmodal>      
+</ng-template>
+  
+
+  
+<!-- fim Modal-->    
+  
