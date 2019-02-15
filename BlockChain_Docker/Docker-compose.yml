@@ -5,10 +5,10 @@ services:
     container_name: merchant_frontend
     #EXPOSE: "4200"
     build:
-      context: ./FrontEnd/merchant6/
+      context: ../Blockchain_Merchant/Merchant_Frontend/
       dockerfile: MerchantFrontend.dev
     ports:
-     - "1900:80"
+      - "1900:80"
     #command: [nginx-debug, '-g', 'daemon off;']
   redis:
     restart: always
@@ -23,13 +23,13 @@ services:
     container_name: blockchain_service
     build:
       #context: ../blockchain_docker/blockchain/
-      context: ./BackEnd/blockchainservice
+      context: ../Blockchain_Webservice/
       dockerfile: Docker.Node1
     ports:
       - "3001:3001"
     volumes:
       - /app/node_modules
-      - ./BackEnd/blockchainservice:/app
+      - ../Blockchain_Webservice:/app
     environment:
       - CASSANDRA_DATABASE=blockchain_net1_db
       - BLOCKCHAIN_PORT=3001
@@ -44,7 +44,7 @@ services:
     container_name: blockchainsocketio_service
     build:
       #context: ../blockchain_docker/blockchain/
-      context: ./BackEnd/blockchainsocketio
+      context: ../Blockchain_SOCKETIO/
       dockerfile: Docker.Node1
     environment:
       - SOCKETIO_PORT=3005
@@ -52,14 +52,14 @@ services:
       - "3005:3005"
     volumes:
       - /app/node_modules
-      - ./BackEnd/blockchainsocketio:/app
+      - ../Blockchain_SOCKETIO:/app
       
   merchant_service:
     restart: on-failure:5
     container_name: merchant_service
     build:
       #context: ../blockchain_docker/blockchain/
-      context: ./BackEnd/merchantservice
+      context: ../Blockchain_Merchant/MerchantService_Backend
       dockerfile: Docker.Node1
     environment:
       - MERCHANT_PORT=3002
@@ -67,7 +67,7 @@ services:
       - "3002:3002"
     volumes:
       - /app/node_modules
-      - ./BackEnd/merchantservice:/app
+      - ../Blockchain_Merchant/MerchantService_Backend:/app
     
       
   #blockchain_merchants_frontend_dev:
@@ -88,11 +88,11 @@ services:
     #volumes:
     #  - /app/node_modules
     #  - ./FrontEnd/Merchant-App/:/app
-  #blockchain_nginx:
-  #  restart: always
-  #  container_name: blockchain_reverse_proxy
-  #  build:
-  #    dockerfile: Dockerfile.dev
-  #    context: .
-  #  ports:
-  #    - '3050:80'
+  blockchain_nginx:
+    restart: always
+    container_name: blockchain_reverse_proxy
+    build:
+      dockerfile: Dockerfile.dev
+      context: .
+    ports:
+      - '3050:80'
