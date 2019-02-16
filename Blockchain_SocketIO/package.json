@@ -14,16 +14,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "*",
+    "body-parser": "^1.18.3",
     "cors": "^2.8.5",
-    "express": "*",
-    "nodemon": "*",
-    "request": "*",
-    "request-promise": "*",
-    "sha256": "*",
-    "uuid": "*",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.10",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
     "http":"*",
-    "socket.io":"*"
+    "socket.io":"^2.2.0"
     
   },
   "description": ""

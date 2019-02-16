@@ -1,14 +1,13 @@
-#Blockchain Mining Terminode
+# Blockchain Mining Terminode
 
 This has been developed in React JS, Electronjs (Nodejs), socketio client and pouchdb.
 
 The Terminode subscribes to the Netwokblockchain using socketio client.
 
-Socket IO Client Listens for pending transactions
-
-Socket IO Listens for Completed Block Data
-
-Socket IO Listens for Completed Mining from other Nodes
+Socket IO Client Listens@
+    1. pending transactions awaiting Blockchain Mining.
+    2. Completed Block Data
+    3. Completed Mining notification from the successful Terminode
 
 PouchDB Stores 
     

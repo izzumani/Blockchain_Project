@@ -1,28 +1,46 @@
 # Blockchain Project
+
+
+
+# Blockchain Study Scenario
 A customer shops on a merchant website and  orders goods.
 
-A QR Code is generated. It contains the Merchant Hashcode, Amount and the TransactionID.
+A QR Code is generated. It contains the Merchant Public Key reference, Amount and the Order Reference Number.
 
 Using Blockchain Wallet, scan the QR Code and accept payments.
 
-The Blockchain Customer HashCode, MerchantHashCode, Amount and the TransactionID is sent to the Blockchain network.
+The customer will select the coin to use of payment (cases where they have mutiple denomination of coins in the wallet).
 
-A confirmation receipt ID is sent to the awaiting merchant website to as a confirmation of payments.
+The Amount is confirmed and Cryptocurrency validation is done using the prescribed Customer private key.
 
-The transaction details which includes the Amount, the BlockchainCustomer Hashcode, Merchant HashCode and the TransactionID is sent  to all miners subscribed to the Blockchain Network.
+The transaction is sent to the blockchain network to comment transactions
 
-Each miner will retrieve the previous hashcode of the merchant (Only verified at consensus or reconciliation) and the last index.
+The Mechant Amount is deducted from the Amount Received
 
-A Copy of the block transaction details will be sent to the cassandra DB.
+A  processing Fee of 0.05% is charged on the transaction is deducted from the amount received
 
-Proof of work will begin immediately for each nodes of miners using crypto-js\sha256 to generate nonce. The parameters include Previoushashcode and the transactiondetails. The expected result is format "0000"+anycharacter.
+If there is change from Coin(s) paid known as (UTXO) , The Amount is sent to the customer wallet on the provided Address .
 
-The Miners that will complete by getting the accepted Cryptographic Hashcode format will notify the other nodes of miners on the blockchain.
+A confirmation receipt ID is sent to the awaiting merchant website  to confirm payments received.
+
+Merchant Amount is queued until mining done.
+
+Transactions details are sent to the Blockchain network Mempool.
+
+Miners will check through the queue of pending transaction and pick transaction.
+
+Using the previousHashcode, index and the transaction received, Proof of work will begin immediately for all the terminodes  of miners using crypto-js\sha256 to generate nonce. The hash algorithm as expected result is format "0000"+anycharacter.
+
+The one that will be successful, will notify the rest on the network of the successful transaction. Others miners will stop the processing immediately.
 
 
-Will send the nonce, previousHashcode and NewHashcode to the network. 
+The successful Miner  use nonce and generate the newhashcode.
 
-Each Miner will verify and save the Block locally.
+The Blockchain will be sent to all the nodes on the network.
+
+
+The Merchant will receive a confirmation of the Successful mining.
+
 
 
 ![alt text](https://github.com/izzumani/Blockchain_Project/blob/master/png/Blockchain%20Dataflow%20chart.png)
