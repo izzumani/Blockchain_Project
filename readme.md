@@ -31,7 +31,7 @@ Miners will check through the queue of pending transaction and pick transaction.
 
 Using the previousHashcode, index and the transaction received, Proof of work will begin immediately for all the terminodes  of miners using crypto-js\sha256 to generate nonce. The hash algorithm as expected result is format "0000"+anycharacter.
 
-The one that will be successful, will notify the rest on the network of the successful transaction. Others miners will halt the processing.
+The one that will get the correct hashcode, will notify the blockchain network and Others miners will halt the mining process.
 
 
 The successful Miner  use nonce and generate the newhashcode.
@@ -41,7 +41,7 @@ The Blockchain will be sent to all the nodes on the network.
 
 The Merchant will receive a confirmation of the Successful mining.
 
-If a miner is disconnected from the network during process, the processing will stop.
+The mining will stop If a miner is disconnected from the network during the process.
 
 
 ![alt text](https://github.com/izzumani/Blockchain_Project/blob/master/png/Blockchain%20Dataflow%20chart.png)
