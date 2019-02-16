@@ -15,3 +15,6 @@ PouchDB Stores
     1. Received Transactions.
     2. Blockchain Details
     3. Credentials verification
+
+
+![alt text](https://github.com/izzumani/Blockchain_Project/blob/master/Blockchain_MiningTerminal/png/Blockchain%20Mining%20Terminal.png)
