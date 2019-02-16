@@ -23,25 +23,25 @@ If there is change from Coin(s) paid  , The Amount knowna as UTXO is sent to the
 
 A confirmation receipt ID is sent to the awaiting merchant website  to confirm payments received will start shipping the goods.
 
-Merchant Amount to the wallet is queued until mining done.
+Merchant transaction is queued until mining done.
 
 Transactions details are sent to the Blockchain network Mempool.
 
-Miners will check through the queue of pending transaction and pick transaction.
+Miners will pick pending transaction. 
 
 Using the previousHashcode, index and the transaction received, Proof of work will begin immediately for all the terminodes  of miners using crypto-js\sha256 to generate nonce. The hash algorithm as expected result is format "0000"+anycharacter.
 
 The one that will get the correct hashcode, will notify the blockchain network and Others miners will halt the mining process.
 
 
-The successful Miner  use nonce and generate the newhashcode.
+The successful Miner use the nonce and generate the newhashcode.
 
 The Blockchain will be sent to all the nodes on the network.
 
 
 The Merchant will receive a confirmation of the Successful mining.
 
-The mining will stop If a miner is disconnected from the network during the process.
+The mining process for the specific  miner terminode will stop if its disconnect from the network.
 
 
 ![alt text](https://github.com/izzumani/Blockchain_Project/blob/master/png/Blockchain%20Dataflow%20chart.png)
