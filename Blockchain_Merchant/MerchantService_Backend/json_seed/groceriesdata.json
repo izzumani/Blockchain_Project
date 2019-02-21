@@ -1,0 +1,1531 @@
+	 [{
+			"ProductCode": "veg001",
+			"ProductDescription": "Spinach - Local",
+			"Category": "bunch",
+			"Price": 27,
+			"Instock": true,
+			"UnitOfMeasure": "bunch"
+		},
+		{
+			"ProductCode": "veg002",
+			"ProductDescription": "Sukuma Wiki (Collard Greens)",
+			"Category": "bunch",
+			"Price": 27,
+			"Instock": true,
+			"UnitOfMeasure": "bunch"
+		},
+
+		{
+			"ProductCode": "veg003",
+			"ProductDescription": "White Cabbage",
+			"Category": "FreshGreens",
+			"Price": 25,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+
+		{
+			"ProductCode": "veg004",
+			"ProductDescription": "Spinach Italian Loose",
+			"Category": "FreshGreens",
+			"Price": 159,
+			"Instock": true,
+			"UnitOfMeasure": "200gms"
+		},
+
+
+		{
+			"ProductCode": "veg005",
+			"ProductDescription": "Managu - (African Nightshade)",
+			"Category": "FreshGreens",
+			"Price": 25,
+			"Instock": true,
+			"UnitOfMeasure": "bunch"
+		},
+
+
+		{
+			"ProductCode": "veg006",
+			"ProductDescription": "Red Cabbage",
+			"Category": "FreshGreens",
+			"Price": 99,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+
+
+		{
+			"ProductCode": "veg007",
+			"ProductDescription": "Spinach - Italian",
+			"Category": "FreshGreens",
+			"Price": 400,
+			"Instock": true,
+			"UnitOfMeasure": "packet"
+		},
+
+		{
+			"ProductCode": "veg008",
+			"ProductDescription": "Watercress",
+			"Category": "FreshGreens",
+			"Price": 25,
+			"Instock": true,
+			"UnitOfMeasure": "bunch"
+		},
+
+		{
+			"ProductCode": "veg009",
+			"ProductDescription": "Okra/ Ladyfingers",
+			"Category": "FreshGreens",
+			"Price": 159,
+			"Instock": true,
+			"UnitOfMeasure": "bunch"
+		},
+
+		{
+			"ProductCode": "veg010",
+			"ProductDescription": "Brussel Sprouts",
+			"Category": "FreshGreens",
+			"Price": 450,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+
+		{
+			"ProductCode": "veg011",
+			"ProductDescription": "Kahurura - (Pumpkin Leaves)",
+			"Category": "FreshGreens",
+			"Price": 27,
+			"Instock": true,
+			"UnitOfMeasure": "bunch"
+		},
+
+		{
+			"ProductCode": "veg012",
+			"ProductDescription": "Kahurura - (Pumpkin Leaves)",
+			"Category": "FreshGreens",
+			"Price": 20,
+			"Instock": true,
+			"UnitOfMeasure": "bunch"
+		},
+
+		{
+			"ProductCode": "veg013",
+			"ProductDescription": "Methi",
+			"Category": "FreshGreens",
+			"Price": 20,
+			"Instock": true,
+			"UnitOfMeasure": "bunch"
+		},
+
+		{
+			"ProductCode": "veg014",
+			"ProductDescription": "Chinese Cabbage",
+			"Category": "FreshGreens",
+			"Price": 89,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+
+		{
+			"ProductCode": "veg014",
+			"ProductDescription": "Terere",
+			"Category": "FreshGreens",
+			"Price": 27,
+			"Instock": true,
+			"UnitOfMeasure": "bunch"
+		},
+
+
+		{
+			"ProductCode": "veg015",
+			"ProductDescription": "Garlic - Imported",
+			"Category": "Chillies, Herbs, Garlic and Ginger",
+			"Price": 45,
+			"Instock": true,
+			"UnitOfMeasure": "90gms"
+		},
+
+		{
+			"ProductCode": "veg016",
+			"ProductDescription": "Dhania (Cilantro)",
+			"Category": "Herbs",
+			"Price": 19,
+			"Instock": true,
+			"UnitOfMeasure": "bunch"
+		},
+
+
+		{
+			"ProductCode": "veg017",
+			"ProductDescription": "Ginger - Local",
+			"Category": "Chillies, Herbs, Garlic and Ginger",
+			"Price": 349,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+
+		{
+			"ProductCode": "veg018",
+			"ProductDescription": "Basil",
+			"Category": "Herbs",
+			"Price": 40,
+			"Instock": true,
+			"UnitOfMeasure": "bunch"
+		},
+
+		{
+			"ProductCode": "veg019",
+			"ProductDescription": "Parsley",
+			"Category": "Herbs",
+			"Price": 30,
+			"Instock": true,
+			"UnitOfMeasure": "bunch"
+		},
+
+		{
+			"ProductCode": "veg020",
+			"ProductDescription": "Thyme",
+			"Category": "Herbs",
+			"Price": 20,
+			"Instock": true,
+			"UnitOfMeasure": "bunch"
+		},
+
+		{
+			"ProductCode": "veg021",
+			"ProductDescription": "Local Ginger",
+			"Category": "Chillies, Herbs, Garlic and Ginger",
+			"Price": 349,
+			"Instock": true,
+			"UnitOfMeasure": "1kg"
+		},
+
+		{
+			"ProductCode": "veg022",
+			"ProductDescription": "Dill",
+			"Category": "Herbs",
+			"Price": 20,
+			"Instock": true,
+			"UnitOfMeasure": "bunch"
+		},
+
+
+		{
+			"ProductCode": "veg023",
+			"ProductDescription": "Kunde",
+			"Category": "Herbs",
+			"Price": 27,
+			"Instock": true,
+			"UnitOfMeasure": "bunch"
+		},
+
+		{
+			"ProductCode": "veg024",
+			"ProductDescription": "Long Green Chilli",
+			"Category": "Chillies, Herbs, Garlic and Ginger",
+			"Price": 349,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+
+		{
+			"ProductCode": "veg025",
+			"ProductDescription": "Red Bullet Chilli",
+			"Category": "Chillies, Herbs, Garlic and Ginger",
+			"Price": 349,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+
+		{
+			"ProductCode": "veg026",
+			"ProductDescription": "Red thin Chillies",
+			"Category": "Chillies, Herbs, Garlic and Ginger",
+			"Price": 349,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+
+		{
+			"ProductCode": "veg027",
+			"ProductDescription": "Caribbean Chilies",
+			"Category": "Chillies, Herbs, Garlic and Ginger",
+			"Price": 70,
+			"Instock": true,
+			"UnitOfMeasure": "punnet"
+		},
+
+
+		{
+			"ProductCode": "veg028",
+			"ProductDescription": "Green Bullet Chilli",
+			"Category": "Chillies, Herbs, Garlic and Ginger",
+			"Price": 349,
+			"Instock": true,
+			"UnitOfMeasure": "1kg"
+		},
+
+		{
+			"ProductCode": "veg029",
+			"ProductDescription": "Tarragon",
+			"Category": "Herbs",
+			"Price": 25,
+			"Instock": true,
+			"UnitOfMeasure": "bunch"
+		},
+
+		{
+			"ProductCode": "veg030",
+			"ProductDescription": "Marjorum",
+			"Category": "Herbs",
+			"Price": 25,
+			"Instock": true,
+			"UnitOfMeasure": "bunch"
+		},
+
+		{
+			"ProductCode": "veg031",
+			"ProductDescription": "Carrots",
+			"Category": "Root Vegetables",
+			"Price": 89,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+
+		{
+			"ProductCode": "veg032",
+			"ProductDescription": "White Potatoes",
+			"Category": "Root Vegetables",
+			"Price": 99,
+			"Instock": true,
+			"UnitOfMeasure": "kilo"
+		},
+
+		{
+			"ProductCode": "veg033",
+			"ProductDescription": "Potatoes",
+			"Category": "Root Vegetables",
+			"Price": 139,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+
+		{
+			"ProductCode": "veg034",
+			"ProductDescription": "Beetroot",
+			"Category": "Root Vegetables",
+			"Price": 129,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+
+		{
+			"ProductCode": "veg035",
+			"ProductDescription": "Arrowroot",
+			"Category": "Root Vegetables",
+			"Price": 169,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+
+
+		{
+			"ProductCode": "veg036",
+			"ProductDescription": "Royal Red Potatoes",
+			"Category": "Root Vegetables",
+			"Price": 159,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+
+		{
+			"ProductCode": "veg037",
+			"ProductDescription": "Red Raddish",
+			"Category": "Root Vegetables",
+			"Price": 30,
+			"Instock": true,
+			"UnitOfMeasure": "bunch"
+		},
+
+		{
+			"ProductCode": "veg038",
+			"ProductDescription": "Fennel",
+			"Category": "Root Vegetables",
+			"Price": 119,
+			"Instock": true,
+			"UnitOfMeasure": "1kg"
+		},
+
+		{
+			"ProductCode": "veg039",
+			"ProductDescription": "Kohlorabi",
+			"Category": "Root Vegetables",
+			"Price": 120,
+			"Instock": true,
+			"UnitOfMeasure": "1kg"
+		},
+
+		{
+			"ProductCode": "veg040",
+			"ProductDescription": "Artichoke",
+			"Category": "Root Vegetables",
+			"Price": 49,
+			"Instock": true,
+			"UnitOfMeasure": "1kg"
+		},
+
+		{
+			"ProductCode": "veg041",
+			"ProductDescription": "Horse Raddish",
+			"Category": "Root Vegetables",
+			"Price": 190,
+			"Instock": true,
+			"UnitOfMeasure": "1kg"
+		},
+
+		{
+			"ProductCode": "veg042",
+			"ProductDescription": "Suede",
+			"Category": "Root Vegetables",
+			"Price": 149,
+			"Instock": true,
+			"UnitOfMeasure": "1kg"
+		},
+		{
+			"ProductCode": "veg043",
+			"ProductDescription": "Snow Peas - Loose",
+			"Category": "Legumes ",
+			"Price": 79,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+
+		{
+			"ProductCode": "veg044",
+			"ProductDescription": "Green Beans",
+			"Category": "Legumes ",
+			"Price": 90,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+
+		{
+			"ProductCode": "veg045",
+			"ProductDescription": "Red Beans",
+			"Category": "Legumes ",
+			"Price": 36,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+
+		{
+			"ProductCode": "veg046",
+			"ProductDescription": "Groundnuts",
+			"Category": "Legumes ",
+			"Price": 299,
+			"Instock": true,
+			"UnitOfMeasure": "100gms"
+		},
+
+		{
+			"ProductCode": "veg047",
+			"ProductDescription": "Bean Sprouts",
+			"Category": "Legumes ",
+			"Price": 290,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+
+		{
+			"ProductCode": "veg048",
+			"ProductDescription": "Black Beans - Packet",
+			"Category": "Legumes ",
+			"Price": 145,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+
+		{
+			"ProductCode": "veg049",
+			"ProductDescription": "Mix Green Gram",
+			"Category": "Legumes",
+			"Price": 180,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+
+
+		{
+			"ProductCode": "veg050",
+			"ProductDescription": "Broccoli",
+			"Category": "Broccoli + Cauliflower",
+			"Price": 159,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+
+		{
+			"ProductCode": "veg051",
+			"ProductDescription": "Cauliflower",
+			"Category": "Broccoli + Cauliflower",
+			"Price": 169,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+
+		{
+			"ProductCode": "veg052",
+			"ProductDescription": "Tofu",
+			"Category": "Pre-Packed Vegetables",
+			"Price": 160,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+
+		{
+			"ProductCode": "veg053",
+			"ProductDescription": "Mixed Salads",
+			"Category": "Pre-Packed Vegetables",
+			"Price": 100,
+			"Instock": true,
+			"UnitOfMeasure": "200gms"
+		},
+
+
+		{
+			"ProductCode": "veg054",
+			"ProductDescription": "Stir Fry Mix",
+			"Category": "Pre-Packed Vegetables",
+			"Price": 100,
+			"Instock": true,
+			"UnitOfMeasure": "500gms"
+		},
+
+		{
+			"ProductCode": "veg055",
+			"ProductDescription": "Spinach shredded",
+			"Category": "Pre-Packed Vegetables",
+			"Price": 79,
+			"Instock": true,
+			"UnitOfMeasure": "300gms"
+		},
+
+
+		{
+			"ProductCode": "veg056",
+			"ProductDescription": "Butternut Squash - Packed",
+			"Category": "Pre-Packed Vegetables",
+			"Price": 120,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+
+
+		{
+			"ProductCode": "veg057",
+			"ProductDescription": "Broccoli - Packed",
+			"Category": "Pre-Packed Vegetables",
+			"Price": 275,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+
+
+
+		{
+			"ProductCode": "veg058",
+			"ProductDescription": "Brussels Sprouts - Packed",
+			"Category": "Pre-Packed Vegetables",
+			"Price": 450,
+			"Instock": true,
+			"UnitOfMeasure": "250gms"
+		},
+
+
+		{
+			"ProductCode": "veg059",
+			"ProductDescription": "Baby Corn",
+			"Category": "Pre-Packed Vegetables",
+			"Price": 89,
+			"Instock": true,
+			"UnitOfMeasure": "250gms"
+		},
+
+
+		{
+			"ProductCode": "veg060",
+			"ProductDescription": "Peeled Garlic",
+			"Category": "Pre-Packed Vegetables",
+			"Price": 299,
+			"Instock": true,
+			"UnitOfMeasure": "200gms"
+		},
+
+
+		{
+			"ProductCode": "veg061",
+			"ProductDescription": "Pomegranate - Prepacked",
+			"Category": "Pre-Packed Vegetables",
+			"Price": 270,
+			"Instock": true,
+			"UnitOfMeasure": "150gms"
+		},
+
+
+		{
+			"ProductCode": "veg062",
+			"ProductDescription": "Mixed Salads",
+			"Category": "Pre-Packed Vegetables",
+			"Price": 480,
+			"Instock": true,
+			"UnitOfMeasure": "250gms"
+		},
+
+
+		{
+			"ProductCode": "veg063",
+			"ProductDescription": "Tenderstem Broccoli",
+			"Category": "Pre-Packed Vegetables",
+			"Price": 120,
+			"Instock": true,
+			"UnitOfMeasure": "200gms"
+		},
+
+
+		{
+			"ProductCode": "veg064",
+			"ProductDescription": "Red Onions",
+			"Category": "Onions + Leeks",
+			"Price": 89,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+
+		{
+			"ProductCode": "veg065",
+			"ProductDescription": "Celery",
+			"Category": "Onions + Leeks ",
+			"Price": 159,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+
+		{
+			"ProductCode": "veg066",
+			"ProductDescription": "Leeks",
+			"Category": "Onions + Leeks ",
+			"Price": 139,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+
+
+		{
+			"ProductCode": "veg067",
+			"ProductDescription": "Salad Onions",
+			"Category": "Onions + Leeks ",
+			"Price": 149,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+
+		{
+			"ProductCode": "veg068",
+			"ProductDescription": "Shallots onion",
+			"Category": "Onions + Leeks ",
+			"Price": 149,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+
+		{
+			"ProductCode": "veg069",
+			"ProductDescription": "Pickled Onions",
+			"Category": "Onions + Leeks ",
+			"Price": 119,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+
+		{
+			"ProductCode": "veg070",
+			"ProductDescription": "Sweet corn",
+			"Category": "Peas, Beans, Sweetcorn + Asparagus",
+			"Price": 149,
+			"Instock": true,
+			"UnitOfMeasure": "punnet"
+		},
+
+		{
+			"ProductCode": "veg071",
+			"ProductDescription": "French Beans",
+			"Category": "Peas, Beans, Sweetcorn + Asparagus",
+			"Price": 79,
+			"Instock": true,
+			"UnitOfMeasure": "250gm"
+		},
+
+		{
+			"ProductCode": "veg072",
+			"ProductDescription": "French Beans",
+			"Category": "Peas, Beans, Sweetcorn + Asparagus",
+			"Price": 79,
+			"Instock": true,
+			"UnitOfMeasure": "250gm"
+		},
+
+
+		{
+			"ProductCode": "veg073",
+			"ProductDescription": "Garden Peas",
+			"Category": "Peas, Beans, Sweetcorn + Asparagus",
+			"Price": 498,
+			"Instock": true,
+			"UnitOfMeasure": "1kg"
+		},
+
+
+		{
+			"ProductCode": "veg074",
+			"ProductDescription": "Asparagus",
+			"Category": "Peas, Beans, Sweetcorn + Asparagus",
+			"Price": 599,
+			"Instock": true,
+			"UnitOfMeasure": "1kg"
+		},
+
+
+		{
+			"ProductCode": "veg075",
+			"ProductDescription": "White Maize",
+			"Category": "Peas, Beans, Sweetcorn + Asparagus",
+			"Price": 35,
+			"Instock": true,
+			"UnitOfMeasure": "piece"
+		},
+
+
+		{
+			"ProductCode": "veg076",
+			"ProductDescription": "Sweet Corn - Loose",
+			"Category": "Peas, Beans, Sweetcorn + Asparagus",
+			"Price": 150,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+
+
+		{
+			"ProductCode": "veg077",
+			"ProductDescription": "Broad Beans Loose",
+			"Category": "Peas, Beans, Sweetcorn + Asparagus",
+			"Price": 80,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+
+
+		{
+			"ProductCode": "veg078",
+			"ProductDescription": "Valour",
+			"Category": "Peas, Beans, Sweetcorn + Asparagus",
+			"Price": 179,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+
+
+		{
+			"ProductCode": "veg079",
+			"ProductDescription": "Asparagus Loose - Imported",
+			"Category": "Peas, Beans, Sweetcorn + Asparagus",
+			"Price": 2200,
+			"Instock": true,
+			"UnitOfMeasure": "2 Bunches"
+		},
+
+
+		{
+			"ProductCode": "veg080",
+			"ProductDescription": "Pigeon Peas",
+			"Category": "Peas, Beans, Sweetcorn + Asparagus",
+			"Price": 250,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+
+
+		{
+			"ProductCode": "veg081",
+			"ProductDescription": "Courgettes (Zucchini)",
+			"Category": "Peas, Beans, Sweetcorn + Asparagus",
+			"Price": 99,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+
+
+		{
+			"ProductCode": "veg082",
+			"ProductDescription": "Eggplant",
+			"Category": "Peas, Beans, Sweetcorn + Asparagus",
+			"Price": 89,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+
+
+		{
+			"ProductCode": "veg083",
+			"ProductDescription": "Butternut Squash",
+			"Category": "Peas, Beans, Sweetcorn + Asparagus",
+			"Price": 99,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+
+
+		{
+			"ProductCode": "veg084",
+			"ProductDescription": "Baby Marrow",
+			"Category": "Peas, Beans, Sweetcorn + Asparagus",
+			"Price": 99,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+
+		{
+			"ProductCode": "veg085",
+			"ProductDescription": "Marrow",
+			"Category": "Peas, Beans, Sweetcorn + Asparagus",
+			"Price": 42,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+
+		{
+			"ProductCode": "veg086",
+			"ProductDescription": "Sweet Potato - Local",
+			"Category": "Potatoes + Sweet Potato",
+			"Price": 129,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+
+		{
+			"ProductCode": "veg087",
+			"ProductDescription": "Sweet potato",
+			"Category": "Potatoes + Sweet Potato",
+			"Price": 99,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+
+
+		{
+			"ProductCode": "veg088",
+			"ProductDescription": "Baby Potatoes",
+			"Category": "Potatoes + Sweet Potato",
+			"Price": 99,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+
+		{
+			"ProductCode": "veg089",
+			"ProductDescription": "Banana - Kampala",
+			"Category": "Bananas",
+			"Price": 99,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+
+		{
+			"ProductCode": "veg090",
+			"ProductDescription": "Sweet Bananas",
+			"Category": "Bananas",
+			"Price": 179,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+
+		{
+			"ProductCode": "veg091",
+			"ProductDescription": "Bananas - Sweet",
+			"Category": "Bananas",
+			"Price": 179,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+		{
+			"ProductCode": "veg092",
+			"ProductDescription": "Plantain Matoke - Ripe",
+			"Category": "Bananas",
+			"Price": 179,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+
+		{
+			"ProductCode": "veg093",
+			"ProductDescription": "Bananas - Matoke",
+			"Category": "Bananas",
+			"Price": 109,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+
+		{
+			"ProductCode": "veg094",
+			"ProductDescription": "Apples - Pink Lady",
+			"Category": "APPLES + PEARS",
+			"Price": 349,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+
+		{
+			"ProductCode": "veg095",
+			"ProductDescription": "Apples - Pink Lady",
+			"Category": "APPLES + PEARS",
+			"Price": 349,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+
+		{
+			"ProductCode": "veg096",
+			"ProductDescription": "Apples - Green",
+			"Category": "APPLES + PEARS",
+			"Price": 299,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+
+		{
+			"ProductCode": "veg097",
+			"ProductDescription": "Apples - Crisp Red",
+			"Category": "APPLES + PEARS",
+			"Price": 299,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+
+		{
+			"ProductCode": "veg098",
+			"ProductDescription": "Apples Pinklady",
+			"Category": "APPLES + PEARS",
+			"Price": 349,
+			"Instock": true,
+			"UnitOfMeasure": "9 pcs"
+		},
+
+		{
+			"ProductCode": "veg099",
+			"ProductDescription": "Apples - Top Red",
+			"Category": "APPLES + PEARS",
+			"Price": 299,
+			"Instock": true,
+			"UnitOfMeasure": "1kg"
+		},
+
+		{
+			"ProductCode": "veg100",
+			"ProductDescription": "Red Pears - Packed",
+			"Category": "APPLES + PEARS",
+			"Price": 399,
+			"Instock": true,
+			"UnitOfMeasure": "1kg"
+		},
+
+		{
+			"ProductCode": "veg101",
+			"ProductDescription": "Red Apples",
+			"Category": "APPLES + PEARS",
+			"Price": 299,
+			"Instock": true,
+			"UnitOfMeasure": "1kg"
+		},
+
+
+		{
+			"ProductCode": "veg102",
+			"ProductDescription": "Strawberries",
+			"Category": "Berries",
+			"Price": 299,
+			"Instock": true,
+			"UnitOfMeasure": "punnet"
+		},
+
+
+		{
+			"ProductCode": "veg103",
+			"ProductDescription": "Raspberries",
+			"Category": "Berries",
+			"Price": 149,
+			"Instock": true,
+			"UnitOfMeasure": "punnet"
+		},
+
+		{
+			"ProductCode": "veg104",
+			"ProductDescription": "Blueberries",
+			"Category": "Berries",
+			"Price": 189,
+			"Instock": true,
+			"UnitOfMeasure": "punnet"
+		},
+
+		{
+			"ProductCode": "veg105",
+			"ProductDescription": "Gooseberries",
+			"Category": "Berries",
+			"Price": 200,
+			"Instock": true,
+			"UnitOfMeasure": "punnet"
+		},
+
+		{
+			"ProductCode": "veg106",
+			"ProductDescription": "Oranges - Imported",
+			"Category": "Citrus Fruits ",
+			"Price": 229,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+
+		{
+			"ProductCode": "veg107",
+			"ProductDescription": "Lemons - Local",
+			"Category": "Citrus Fruits ",
+			"Price": 99,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+		{
+			"ProductCode": "veg108",
+			"ProductDescription": "Lemons - Imported",
+			"Category": "Citrus Fruits ",
+			"Price": 499,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+
+		{
+			"ProductCode": "veg109",
+			"ProductDescription": "Limes - Green",
+			"Category": "Citrus Fruits ",
+			"Price": 199,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+
+		{
+			"ProductCode": "veg110",
+			"ProductDescription": "Local Oranges - Seedless",
+			"Category": "Citrus Fruits ",
+			"Price": 99,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+
+		{
+			"ProductCode": "veg111",
+			"ProductDescription": "Mandarin Oranges",
+			"Category": "Citrus Fruits ",
+			"Price": 499,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+
+
+		{
+			"ProductCode": "veg112",
+			"ProductDescription": "Grapefruit",
+			"Category": "Citrus Fruits ",
+			"Price": 499,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+
+		{
+			"ProductCode": "veg113",
+			"ProductDescription": "Clementine",
+			"Category": "Citrus Fruits ",
+			"Price": 499,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+
+
+		{
+			"ProductCode": "veg114",
+			"ProductDescription": "Yellow Lime",
+			"Category": "Citrus Fruits ",
+			"Price": 199,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+
+		{
+			"ProductCode": "veg115",
+			"ProductDescription": "Nova - Local",
+			"Category": "Citrus Fruits ",
+			"Price": 539,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+
+		{
+			"ProductCode": "veg116",
+			"ProductDescription": "Red Grapes Seedless",
+			"Category": "Citrus Fruits ",
+			"Price": 199,
+			"Instock": true,
+			"UnitOfMeasure": "punnet"
+		},
+
+
+		{
+			"ProductCode": "veg117",
+			"ProductDescription": "Plums",
+			"Category": "Stone Fruit",
+			"Price": 1599,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+
+
+		{
+			"ProductCode": "veg118",
+			"ProductDescription": "Nectarines",
+			"Category": "Stone Fruit",
+			"Price": 1599,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+
+		{
+			"ProductCode": "veg119",
+			"ProductDescription": "Peaches",
+			"Category": "Stone Fruit",
+			"Price": 1599,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+
+		{
+			"ProductCode": "veg120",
+			"ProductDescription": "Apricots",
+			"Category": "Stone Fruit",
+			"Price": 1600,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+
+		{
+			"ProductCode": "veg121",
+			"ProductDescription": "Pineapple",
+			"Category": "Melons + Pineapples",
+			"Price": 139,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+
+		{
+			"ProductCode": "veg122",
+			"ProductDescription": "Watermelon",
+			"Category": "Melons + Pineapples",
+			"Price": 79,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+
+		{
+			"ProductCode": "veg123",
+			"ProductDescription": "Sweet Melon",
+			"Category": "Melons + Pineapples",
+			"Price": 159,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+
+		{
+			"ProductCode": "veg124",
+			"ProductDescription": "Water Melon",
+			"Category": "Melons + Pineapples",
+			"Price": 89,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+
+
+		{
+			"ProductCode": "veg125",
+			"ProductDescription": "Thorn Melon",
+			"Category": "Melons + Pineapples",
+			"Price": 89,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+
+
+		{
+			"ProductCode": "veg126",
+			"ProductDescription": "Spanskep Melon",
+			"Category": "Melons + Pineapples",
+			"Price": 1700,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+
+
+		{
+			"ProductCode": "veg127",
+			"ProductDescription": "Cut Watermelon",
+			"Category": "Melons + Pineapples",
+			"Price": 290,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+
+
+
+		{
+			"ProductCode": "veg128",
+			"ProductDescription": "Tindora (Ivy Gourd, Baby Watermelon)",
+			"Category": "Melons + Pineapples",
+			"Price": 40,
+			"Instock": true,
+			"UnitOfMeasure": "200gm"
+		},
+
+
+		{
+			"ProductCode": "veg129",
+			"ProductDescription": "Paw paw - SP",
+			"Category": "Mango + Kiwi ",
+			"Price": 159,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+
+		{
+			"ProductCode": "veg130",
+			"ProductDescription": "Apple Mango",
+			"Category": "Mango + Kiwi ",
+			"Price": 129,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+		
+		{
+			"ProductCode": "veg131",
+			"ProductDescription": "Mango - Ngowe",
+			"Category": "Mango + Kiwi ",
+			"Price": 119,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+		
+		{
+			"ProductCode": "veg132",
+			"ProductDescription": "Black Passion Fruit",
+			"Category": "Mango + Kiwi ",
+			"Price": 189,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+		
+		
+		{
+			"ProductCode": "veg133",
+			"ProductDescription": "Kiwi",
+			"Category": "Mango + Kiwi ",
+			"Price": 49,
+			"Instock": true,
+			"UnitOfMeasure": "piece"
+		},
+		
+		
+		{
+			"ProductCode": "veg134",
+			"ProductDescription": "Kiwi Fruit - Packed",
+			"Category": "Mango + Kiwi ",
+			"Price": 249,
+			"Instock": true,
+			"UnitOfMeasure": "Packet"
+		},
+		
+		
+		{
+			"ProductCode": "veg135",
+			"ProductDescription": "Tree Tomato",
+			"Category": "Mango + Kiwi ",
+			"Price": 249,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+		
+		
+		{
+			"ProductCode": "veg136",
+			"ProductDescription": "Pomegranate - Imported",
+			"Category": "Mango + Kiwi ",
+			"Price": 1299,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+		
+		{
+			"ProductCode": "veg137",
+			"ProductDescription": "Tommy Mango",
+			"Category": "Mango + Kiwi ",
+			"Price": 99,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+		
+		
+		{
+			"ProductCode": "veg138",
+			"ProductDescription": "Quinoa",
+			"Category": "Dried Fruits & Nuts ",
+			"Price": 550,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+		
+		{
+			"ProductCode": "veg139",
+			"ProductDescription": "Cashew Nuts",
+			"Category": "Dried Fruits & Nuts",
+			"Price": 1225,
+			"Instock": true,
+			"UnitOfMeasure": "500gms"
+		},
+		
+		
+		{
+			"ProductCode": "veg140",
+			"ProductDescription": "Dried Apricots",
+			"Category": "Dried Fruits & Nuts",
+			"Price": 814,
+			"Instock": true,
+			"UnitOfMeasure": "400gms"
+		},
+		
+		
+		{
+			"ProductCode": "veg141",
+			"ProductDescription": "Porridge Oats",
+			"Category": "Dried Fruits & Nuts",
+			"Price": 215,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+		
+		
+		{
+			"ProductCode": "veg142",
+			"ProductDescription": "Brazil Nuts",
+			"Category": "Dried Fruits & Nuts",
+			"Price": 1500,
+			"Instock": true,
+			"UnitOfMeasure": "300gms"
+		},
+		
+		
+		{
+			"ProductCode": "veg143",
+			"ProductDescription": "Nibbles - Sweet Coconut Crisps",
+			"Category": "Dried Fruits & Nuts",
+			"Price": 141,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+		
+		
+		{
+			"ProductCode": "veg144",
+			"ProductDescription": "Nibbles - Mango and Passion fruit",
+			"Category": "Dried Fruits & Nuts",
+			"Price": 141,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+		
+		
+		{
+			"ProductCode": "veg145",
+			"ProductDescription": "Greek Currants",
+			"Category": "Dried Fruits & Nuts",
+			"Price": 325,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+		
+		
+		{
+			"ProductCode": "veg146",
+			"ProductDescription": "Nibbles - Salty Coconut Crisps",
+			"Category": "Dried Fruits & Nuts",
+			"Price": 141,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+		
+		
+		{
+			"ProductCode": "veg147",
+			"ProductDescription": "Nibbles - Chilli Coconut Crisps",
+			"Category": "Dried Fruits & Nuts",
+			"Price": 141,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+		
+		
+		{
+			"ProductCode": "veg148",
+			"ProductDescription": "Flaked Almonds",
+			"Category": "Dried Fruits & Nuts",
+			"Price": 940,
+			"Instock": true,
+			"UnitOfMeasure": "300gms"
+		},
+		
+		
+		{
+			"ProductCode": "veg149",
+			"ProductDescription": "Zucchini - Hazel Nuts",
+			"Category": "Dried Fruits & Nuts",
+			"Price": 1475,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+		
+		
+		{
+			"ProductCode": "veg150",
+			"ProductDescription": "Shalimar - Tandori Peanuts",
+			"Category": "Dried Fruits & Nuts",
+			"Price": 199,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+		
+		
+		{
+			"ProductCode": "veg151",
+			"ProductDescription": "Pistachio Nuts",
+			"Category": "Dried Fruits & Nuts",
+			"Price": 1015,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+		
+		
+		{
+			"ProductCode": "veg152",
+			"ProductDescription": "Dried Ginger",
+			"Category": "Dried Fruits & Nuts",
+			"Price": 630,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+		
+		
+		{
+			"ProductCode": "veg153",
+			"ProductDescription": "White Chia Seeds",
+			"Category": "Dried Fruits & Nuts",
+			"Price": 392,
+			"Instock": true,
+			"UnitOfMeasure": "250gms"
+		},
+		
+		
+		
+		{
+			"ProductCode": "veg154",
+			"ProductDescription": "Ground Almonds",
+			"Category": "Dried Fruits & Nuts",
+			"Price": 785,
+			"Instock": true,
+			"UnitOfMeasure": "250gms"
+		},
+		
+		
+		{
+			"ProductCode": "veg155",
+			"ProductDescription": "Belcolade Dark",
+			"Category": "Dried Fruits & Nuts",
+			"Price": 969,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+		
+		
+		{
+			"ProductCode": "veg156",
+			"ProductDescription": "Mixed Peels",
+			"Category": "Dried Fruits & Nuts",
+			"Price": 200,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+		
+		
+		{
+			"ProductCode": "veg157",
+			"ProductDescription": "Snyder`s Pretzel Pieces Jalapeño",
+			"Category": "Dried Fruits & Nuts",
+			"Price": 499,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+		
+		
+		{
+			"ProductCode": "veg158",
+			"ProductDescription": "Dried Papaya",
+			"Category": "Dried Fruits & Nuts",
+			"Price": 610,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+		
+		
+		{
+			"ProductCode": "veg159",
+			"ProductDescription": "Callebaut White Callets Chocolate",
+			"Category": "Dried Fruits & Nuts",
+			"Price": 440,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+		
+		
+		{
+			"ProductCode": "veg160",
+			"ProductDescription": "Toasted Wheat Flakes",
+			"Category": "Dried Fruits & Nuts",
+			"Price": 110,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		},
+		
+		
+		{
+			"ProductCode": "veg160",
+			"ProductDescription": "Dry Pineapple - Diced",
+			"Category": "Dried Fruits & Nuts",
+			"Price": 630,
+			"Instock": true,
+			"UnitOfMeasure": "kg"
+		}
+	 
+	 ]
+	 
+	 
