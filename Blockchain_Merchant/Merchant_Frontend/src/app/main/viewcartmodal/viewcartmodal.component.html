@@ -7,10 +7,10 @@
           </button> -->
         </div>
         <div class="modal-body">
-            <div class="container">
+            <div id="OrderDetails" class="container" [style.display]="isDivVisible ? 'block' : 'none'">
                 <div class="row">
-                    <div class="col-sm-12 col-md-10 col-md-offset-1">
-                        <table class="table table-hover">
+                    <div class="table-wrapper-scroll-y my-custom-scrollbar">
+                        <table class="table table-bordered table-striped mb-0 table-hover">
                             <thead>
                                 <tr>
                                     <th>Product</th>
@@ -33,8 +33,8 @@
                                     <td class="col-sm-1 col-md-1" style="text-align: center">
                                     <input id="quantity" #cproductquantity  class="form-control" (blur) =calculatetotalamount(viewProduct,cproductquantity.value)  value="{{viewProduct.Quantity}}">
                                     </td>
-                                    <td class="col-sm-1 col-md-1 text-center"><strong>${{viewProduct.Price | number : '1.2-2'}}</strong></td>
-                                    <td class="col-sm-1 col-md-1 text-center"><strong>${{viewProduct.TotalAmount | number : '1.2-2'}}</strong></td>
+                                    <td class="col-sm-1 col-md-1 text-center"><strong>{{viewProduct.Price | number : '1.2-2'}}</strong></td>
+                                    <td class="col-sm-1 col-md-1 text-center"><strong>{{viewProduct.TotalAmount | number : '1.2-2'}}</strong></td>
                                     <td class="col-sm-1 col-md-1">
                                     <button type="button" class="btn btn-danger" (click)="removeItem(viewProduct)">
                                         <span class="glyphicon glyphicon-remove"></span> Remove
@@ -46,21 +46,21 @@
                                      <td>   </td>
                                     <td>   </td>
                                     <td><h5>Subtotal</h5></td>
-                                    <td class="text-right"><h5><strong>${{subTotal  | number : '1.2-2'}}</strong></h5></td>
+                                    <td class="text-right"><h5><strong>{{subTotal  | number : '1.2-2'}}</strong></h5></td>
                                 </tr>
                                 <tr>
                                     <td>   </td>
                                     <td>   </td>
                                     <td>   </td>
                                     <td><h5>Tax (11%)</h5></td>
-                                    <td class="text-right"><h5><strong>${{productTax  | number : '1.2-2'}}</strong></h5></td>
+                                    <td class="text-right"><h5><strong>{{productTax  | number : '1.2-2'}}</strong></h5></td>
                                 </tr>
                                 <tr>
                                     <td>   </td>
                                     <td>   </td>
                                     <td>   </td>
                                     <td><h3>Total</h3></td>
-                                    <td class="text-right"><h3><strong>${{totalAmount  | number : '1.2-2'}}</strong></h3></td>
+                                    <td class="text-right"><h3><strong>{{totalAmount  | number : '1.2-2'}}</strong></h3></td>
                                 </tr>
                                 <tr>
                                     <td>   </td>
@@ -81,7 +81,9 @@
         <div id="QRCodeID">
           <!-- <button type="button" class="btn btn-outline-dark" (click)="modal.close('Save click')">Save</button> -->
         </div>
-      
+        <div id="PayAmount" [style.display]="isPayVisible ? 'block' : 'none'">
+            <h3><strong>{{paymentMessage}}</strong></h3>
+          </div>
 
   
 

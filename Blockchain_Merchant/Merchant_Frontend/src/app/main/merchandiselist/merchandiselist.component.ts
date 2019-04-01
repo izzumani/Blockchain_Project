@@ -3,6 +3,8 @@ import {MerchandiseDataService} from '../../services/MerchandiseDataService';
 import {Product} from '../../model/productmodel'
 import {ProductAddCart} from '../../model/productaddcartmodel'
 import {NgbModal, ModalDismissReasons,NgbActiveModal} from '@ng-bootstrap/ng-bootstrap';
+import {GroceriesProduct} from '../../model/types/types_groceriesproduct';
+import {Merchant} from '../../model/types/types_merchantdetails'
 
 @Component({
   selector: 'merchandiselist',
@@ -13,8 +15,9 @@ import {NgbModal, ModalDismissReasons,NgbActiveModal} from '@ng-bootstrap/ng-boo
 // export class MerchandiselistComponent implements Observer<Product[]>, OnInit {
   export class MerchandiselistComponent implements OnInit {
     // @ViewChild(ViewcartmodalComponent ) viewCartModal: ViewcartmodalComponent ; 
-    productLists:Product[]=[];
+    productLists:GroceriesProduct[]=[];
     CartProductList:ProductAddCart[]=[];
+    MerchantDetails : Merchant;
   // cartproductlist:AddCartProductList;
   numberOfItemsInCart:number =0;
   private closeResult:string;
@@ -26,11 +29,21 @@ import {NgbModal, ModalDismissReasons,NgbActiveModal} from '@ng-bootstrap/ng-boo
   {
     
      this.numberOfItemsInCart = this.CartProductList.length;
+    
     this.merchandiseDataService.getMerchandiseData().subscribe(
       (data) =>{
-        // console.log('subscribed data : ',data as Product[]); 
-        this.productLists = data as Product[];
+        
+        this.productLists = data as GroceriesProduct[];
 
+        
+        
+      }
+    );
+
+    this.merchandiseDataService.getMerchantDetails().subscribe(
+      (data) =>{
+        
+        this.MerchantDetails = data as Merchant;
         
       }
     );
@@ -48,8 +61,8 @@ import {NgbModal, ModalDismissReasons,NgbActiveModal} from '@ng-bootstrap/ng-boo
     addCartproduct.addedToCart=true;
     let productAddCart:ProductAddCart=
     {
-      MerchantHashCode:addCartproduct.MerchantHashCode,
-      MerchantName :  addCartproduct.MerchantName,
+      MerchantHashCode:this.MerchantDetails.MerchantBitcoinKey,
+      MerchantName :  this.MerchantDetails.MerchantName,
       ProductCode : addCartproduct.ProductCode,
       ProductDescription : addCartproduct.ProductDescription,
       Quantity : 1,

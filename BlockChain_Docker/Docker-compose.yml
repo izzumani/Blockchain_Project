@@ -96,3 +96,5 @@ services:
   #    context: .
   #  ports:
   #    - '3050:80'
+  #environment:
+  #    - MERCHANT_PORT=3002

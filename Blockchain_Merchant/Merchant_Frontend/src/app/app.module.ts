@@ -9,11 +9,12 @@ import { HttpClientModule }    from '@angular/common/http';
 import {MerchandiseDataService} from './services/MerchandiseDataService'
 import { MerchandiselistComponent } from './main/merchandiselist/merchandiselist.component';
 import { ViewcartmodalComponent } from './main/viewcartmodal/viewcartmodal.component';
-import { SocketIoModule, SocketIoConfig } from 'ngx-socket-io';
+// import { SocketIoModule, SocketIoConfig } from 'ngx-socket-io';
 // import { SocketIoModule, SocketIoConfig } from 'ng6-socket-io';
-import {environment}  from '../environments/environment';
+
+import { GraphQLModule } from './graphql.module';
 //  const config: SocketIoConfig = { url: `${environment.blockchainapiUrl}`, options: {} };
-const config: SocketIoConfig = { url: `${environment.socketioapiUrl}`, options: {} };
+//const config: SocketIoConfig = { url: `${environment.socketioapiUrl}`, options: {} };
 // 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ const config: SocketIoConfig = { url: `${environment.socketioapiUrl}`, options: 
     HttpModule,
     HttpClientModule,
     NgbModule,
-    SocketIoModule.forRoot(config) 
+   // SocketIoModule.forRoot(config),
+    GraphQLModule 
   ],
   providers: [MerchandiseDataService],
   bootstrap: [AppComponent]

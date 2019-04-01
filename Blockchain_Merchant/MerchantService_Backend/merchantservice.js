@@ -71,7 +71,7 @@ resolvers
 
 });
 
-server.start (options,()=>  console.log('The server is up'))
+server.start (options,()=>  console.log(`The server is up on port ${port}`))
 /*
 const express = require('express');
 const bodyParser = require('body-parser');
